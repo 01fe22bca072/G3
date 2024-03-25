@@ -23,13 +23,4 @@ class DevOpsEngineer extends Employee {
     }
 }
 
- class Main {
-    public static void main(String[] args) {
-        Employee employee = new Employee(1, "John Doe", 50000);
-        employee.displayEmployeeDetails();
-        System.out.println("\n");
-
-        DevOpsEngineer devOpsEngineer = new DevOpsEngineer(2, "Jane Doe", 60000, 5000);
-        devOpsEngineer.displayEmployeeDetails();
-    }
-}
+ 
