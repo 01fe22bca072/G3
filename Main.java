@@ -1,6 +1,4 @@
-import java.util.Date;
-
- class Employee {
+class Employee {
     private int employeeId;
     private String name;
     public double salary;
